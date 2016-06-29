@@ -358,6 +358,34 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="factory_girl (vbundled(4.7.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/factory_girl-4.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl-4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl-4.7.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl-4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl-4.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="factory_girl_rails (vbundled(4.7.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/factory_girl_rails-4.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/features" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/features" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="globalid (vbundled(0.3.6), /Users/Brian/Documents/ticketee/vendor/bundle/gems/globalid-0.3.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/globalid-0.3.6/lib" />
