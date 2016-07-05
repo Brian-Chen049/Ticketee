@@ -216,6 +216,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="autoprefixer-rails (vbundled(6.3.7), /Users/Brian/Documents/ticketee/vendor/bundle/gems/autoprefixer-rails-6.3.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.3.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.3.7/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.3.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.3.7/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="binding_of_caller (vbundled(0.7.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/binding_of_caller-0.7.2) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/binding_of_caller-0.7.2/ext" />
@@ -224,6 +236,22 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/binding_of_caller-0.7.2/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/binding_of_caller-0.7.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bootstrap-sass (vbundled(3.3.6), /Users/Brian/Documents/ticketee/vendor/bundle/gems/bootstrap-sass-3.3.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/templates" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bootstrap-sass-3.3.6/templates" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -382,6 +410,18 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/features" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/factory_girl_rails-4.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="font-awesome-rails (vbundled(4.6.3.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/font-awesome-rails-4.6.3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -742,6 +782,16 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/sdoc-0.4.1/bin" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/sdoc-0.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="simple_form (vbundled(3.1.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/simple_form-3.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/simple_form-3.1.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/simple_form-3.1.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
