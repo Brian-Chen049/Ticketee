@@ -228,6 +228,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bcrypt (vbundled(3.1.11), /Users/Brian/Documents/ticketee/vendor/bundle/gems/bcrypt-3.1.11) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bcrypt-3.1.11/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bcrypt-3.1.11/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bcrypt-3.1.11/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/bcrypt-3.1.11/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="binding_of_caller (vbundled(0.7.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/binding_of_caller-0.7.2) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/binding_of_caller-0.7.2/ext" />
@@ -340,6 +352,24 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/debug_inspector-0.0.2/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/debug_inspector-0.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="devise (vbundled(3.4.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/devise-3.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/script" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/script" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/devise-3.4.1/gemfiles" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -590,6 +620,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="orm_adapter (vbundled(0.5.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/orm_adapter-0.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/orm_adapter-0.5.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/orm_adapter-0.5.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rack (vbundled(1.6.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rack-1.6.4) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/bin" />
@@ -690,6 +732,16 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/bin" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="responders (vbundled(2.2.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/responders-2.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/responders-2.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/responders-2.2.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -916,6 +968,16 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.0/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="warden (vbundled(1.2.6), /Users/Brian/Documents/ticketee/vendor/bundle/gems/warden-1.2.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/warden-1.2.6/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/warden-1.2.6/lib" />
         </SOURCES>
       </library>
     </orderEntry>
