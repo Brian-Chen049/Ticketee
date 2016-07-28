@@ -11,4 +11,5 @@ RSpec.describe Admin::ApplicationController, type: :controller do
       expect(response).to redirect_to "/"
       expect(flash[:alert]).to eq "You must be an admin to do that."
     end
-  end end
+  end
+end
