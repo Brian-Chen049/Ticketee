@@ -38,7 +38,6 @@ class Admin::UsersController < Admin::ApplicationController
   end
 
   def archive
-    @user.archive
     if @user == current_user
       flash[:alert] = "You cannot archive yourself!"
     else
