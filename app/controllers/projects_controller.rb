@@ -4,6 +4,7 @@ class ProjectsController < ApplicationController
     @projects = Project.all
   end
   def show
+    authorize @project, :show?
   end
   def edit
   end
