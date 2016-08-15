@@ -6,10 +6,12 @@
                     class: "edit" %></li>
     <% end %>
     <% admins_only do %>
+        <% if policy(Ticket.new(project: @project)).create? %>
         <li><%= link_to "Delete Project", admin_project_path(@project),
                         method: :delete,
                         data: { confirm: "Are you sure you want to delete this project?" },
                         class: "delete" %></li>
+        <% end %>
     <% end %>
   </ul>
 </header>
