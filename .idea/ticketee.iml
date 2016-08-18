@@ -304,6 +304,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="carrierwave (vbundled(0.10.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/carrierwave-0.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/carrierwave-0.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/carrierwave-0.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="coffee-rails (vbundled(4.1.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/coffee-rails-4.1.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/coffee-rails-4.1.1/lib" />
