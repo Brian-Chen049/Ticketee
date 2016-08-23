@@ -28,14 +28,14 @@
       <td><%= time_ago_in_words(@ticket.created_at) %> ago</td>
     </tr>
   </table>
-  <%= simple_format(@ticket.description)%>
+  <%= simple_format(@ticket.description)%>s
   <% if @ticket.attachments.any? %>
       <h4>Attachments</h4>
       <div class="attachments">
         <% @ticket.attachments.each do |attachment| %>
             <p>
               <%= link_to File.basename(attachment.file.url),
-                          attachment.file.url %>
+                          attachment_path(attachment) %>
               (<%= number_to_human_size(attachment.file.size) %>)
             </p>
         <% end %>
