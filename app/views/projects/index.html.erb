@@ -7,9 +7,9 @@
         </li> </ul>
   <% end %>
 </header>
-<div id = "projects">
-  <%= @projects.each do |project| %>
-    <h2><%= link_to project.name, project %></h2>
-    <p><%= project.description %></p>
+<div id="projects">
+  <% @projects.each do |project| %>
+      <h2><%= link_to project.name, project %></h2>
+      <p><%= project.description %></p>
   <% end %>
 </div>
