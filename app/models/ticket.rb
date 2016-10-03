@@ -5,4 +5,5 @@ class Ticket < ActiveRecord::Base
   has_many :attachments, dependent: :destroy
   accepts_nested_attributes_for :attachments, reject_if: :all_blank
   validates :description, presence: true, length: {minimum: 10}
+  has_many :comments, dependent: :destroy
 end
