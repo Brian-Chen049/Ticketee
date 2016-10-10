@@ -812,54 +812,54 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-core (vbundled(3.2.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-core-3.2.3) [path][gem]">
+      <library name="rspec-core (vbundled(3.4.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-core-3.4.4) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.2.3/exe" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.4.4/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.4.4/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.2.3/exe" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.4.4/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-core-3.4.4/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-expectations (vbundled(3.2.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-expectations-3.2.1) [path][gem]">
+      <library name="rspec-expectations (vbundled(3.4.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-expectations-3.4.0) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-expectations-3.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-expectations-3.4.0/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-expectations-3.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-expectations-3.4.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-mocks (vbundled(3.2.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-mocks-3.2.1) [path][gem]">
+      <library name="rspec-mocks (vbundled(3.4.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-mocks-3.4.1) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-mocks-3.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-mocks-3.4.1/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-mocks-3.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-mocks-3.4.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-rails (vbundled(3.2.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-rails-3.2.3) [path][gem]">
+      <library name="rspec-rails (vbundled(3.4.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-rails-3.4.2) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-rails-3.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-rails-3.4.2/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-rails-3.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-rails-3.4.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-support (vbundled(3.2.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-support-3.2.2) [path][gem]">
+      <library name="rspec-support (vbundled(3.4.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rspec-support-3.4.1) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-support-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-support-3.4.1/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-support-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rspec-support-3.4.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
