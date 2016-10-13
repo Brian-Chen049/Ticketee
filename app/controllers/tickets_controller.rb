@@ -12,6 +12,7 @@ class TicketsController < ApplicationController
     @ticket = @project.tickets.build(ticket_params)
     @ticket.author = current_user
     authorize @ticket, :create?
+
     if @ticket.save
       flash[:notice] = "Ticket has been created."
       redirect_to [@project, @ticket]
@@ -45,19 +46,22 @@ class TicketsController < ApplicationController
     authorize @ticket, :destroy?
     @ticket.destroy
     flash[:notice] = "Ticket has been deleted."
+
     redirect_to @project
   end
 
   private
-  def set_project
-    @project = Project.find_by(params[:project_id])
-  end
 
   def ticket_params
-    params.require(:ticket).permit(:name, :description, attachments_attributes: [:file, :file_cache])
+    params.require(:ticket).permit(:name, :description,
+      attachments_attributes: [:file, :file_cache])
+  end
+
+  def set_project
+    @project = Project.find(params[:project_id])
   end
 
   def set_ticket
-    @ticket = @project.tickets.find_by(params[:id])
+    @ticket = @project.tickets.find(params[:id])
   end
 end
