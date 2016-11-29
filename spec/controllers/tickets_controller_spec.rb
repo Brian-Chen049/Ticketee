@@ -1,27 +1,19 @@
 require "rails_helper"
 
-RSpec.describe CommentsController, type: :controller do
+RSpec.describe TicketsController, type: :controller do
+  let(:project) { FactoryGirl.create(:project) }
   let(:user) { FactoryGirl.create(:user) }
-  let(:project) { Project.create!(name: "Ticketee") }
-  let(:state) { State.create!(name: "Hacked") }
 
-  let(:ticket) do
-    project.tickets.create(name: "State transitions",
-      description: "Can't be hacked.", author: user)
+  before :each do
+    assign_role!(user, :editor, project)
+    sign_in user
   end
 
-  context "a user without permission to set state" do
-    before :each do
-      assign_role!(user, :editor, project)
-      sign_in user
-    end
-
-    it "cannot transition a state by passing through state_id" do
-      post :create, { comment: { text: "Did I hack it??",
-                                 state_id: state.id },
-                      ticket_id: ticket.id }
-      ticket.reload
-      expect(ticket.state).to be_nil
-    end
+  it "can create tickets, but not tag them" do
+    post :create, ticket: { name: "New ticket!",
+                            description: "Brand spankin' new",
+                            tag_names: "these are tags" },
+                  project_id: project.id
+    expect(Ticket.last.tags).to be_empty
   end
 end

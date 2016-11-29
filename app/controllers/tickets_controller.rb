@@ -1,6 +1,16 @@
 class TicketsController < ApplicationController
   before_action :set_project
-  before_action :set_ticket, only: [:show, :edit, :update, :destroy]
+  before_action :set_ticket, only: [:show, :edit, :update, :destroy, :watch]
+
+  def search
+    authorize @project, :show?
+    if params[:search].present?
+      @tickets = @project.tickets.search(params[:search])
+    else
+      @tickets = @project.tickets
+    end
+    render "projects/show"
+  end
 
   def new
     @ticket = @project.tickets.build
@@ -9,7 +19,14 @@ class TicketsController < ApplicationController
   end
 
   def create
-    @ticket = @project.tickets.build(ticket_params)
+    @ticket = @project.tickets.new
+
+    whitelisted_params = ticket_params
+    unless policy(@ticket).tag?
+      whitelisted_params.delete(:tag_names)
+    end
+
+    @ticket.attributes = whitelisted_params
     @ticket.author = current_user
     authorize @ticket, :create?
 
@@ -24,7 +41,7 @@ class TicketsController < ApplicationController
 
   def show
     authorize @ticket, :show?
-    @comment = @ticket.comments.build
+    @comment = @ticket.comments.build(state_id: @ticket.state_id)
   end
 
   def edit
@@ -50,10 +67,23 @@ class TicketsController < ApplicationController
     redirect_to @project
   end
 
+  def watch
+    authorize @ticket, :show?
+    if @ticket.watchers.exists?(current_user.id)
+      @ticket.watchers.destroy(current_user)
+      flash[:notice] = "You are no longer watching this ticket."
+    else
+      @ticket.watchers << current_user
+      flash[:notice] = "You are now watching this ticket."
+    end
+
+    redirect_to project_ticket_path(@ticket.project, @ticket)
+  end
+
   private
 
   def ticket_params
-    params.require(:ticket).permit(:name, :description,
+    params.require(:ticket).permit(:name, :description, :tag_names,
       attachments_attributes: [:file, :file_cache])
   end
 

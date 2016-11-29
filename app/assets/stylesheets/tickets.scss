@@ -18,6 +18,10 @@
   }
 }
 
+blockquote.comment p {
+  font-size: 14px;
+}
+
 .state {
   @extend .label;
   font-size: 12px;
@@ -28,7 +32,46 @@
   padding-bottom: 10px;
 }
 
+.tag {
+  @extend .state;
+  @extend .label-info;
+  margin-right: 10px;
 
-blockquote.comment p {
-  font-size: 14px;
+  a {
+    color: white;
+
+    &.remove {
+      font-family: "FontAwesome";
+      @extend .fa-close;
+      margin-right: 0.5em;
+      text-decoration: none;
+    }
+  }
+}
+
+.watch, .unwatch {
+  @extend .btn;
+  @extend .btn-xs;
+  font-weight: bold;
+
+  &:before {
+    font-family: "FontAwesome";
+    padding-right: 0.5em;
+  }
+}
+
+.watch {
+  @extend .btn-success;
+
+  &:before {
+    @extend .fa-eye;
+  }
+}
+
+.unwatch {
+  @extend .btn-danger;
+
+  &:before {
+    @extend .fa-eye-slash;
+  }
 }
