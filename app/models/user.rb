@@ -16,6 +16,10 @@ class User < ActiveRecord::Base
     self.update(archived_at: Time.now)
   end
 
+  def generate_api_key
+    self.update_column(:api_key, SecureRandom.hex(16))
+  end
+
   def active_for_authentication?
     super && archived_at.nil?
   end
@@ -27,8 +31,4 @@ class User < ActiveRecord::Base
   def role_on(project)
     roles.find_by(project_id: project).try(:name)
   end
-
-  def generate_api_key
-    self.update_column(:api_key, SecureRandom.hex(16))
-end
 end
