@@ -40,8 +40,14 @@ class TicketsController < ApplicationController
   end
 
   def show
-    authorize @ticket, :show?
-    @comment = @ticket.comments.build(state_id: @ticket.state_id)
+    def show
+      authorize @ticket, :show?
+      @comment = @ticket.comments.build(state_id: @ticket.state_id)
+      respond_to do |format|
+        format.html
+        format.json { render json: @ticket }
+      end 
+    end
   end
 
   def edit
