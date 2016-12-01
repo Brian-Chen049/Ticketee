@@ -122,6 +122,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
+      <library name="CFPropertyList (vbundled(2.3.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/CFPropertyList-2.3.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/CFPropertyList-2.3.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/CFPropertyList-2.3.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="actionmailer (vbundled(4.2.6), /Users/Brian/Documents/ticketee/vendor/bundle/gems/actionmailer-4.2.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/actionmailer-4.2.6/lib" />
@@ -148,6 +158,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/actionview-4.2.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="active_model_serializers (vbundled(0.9.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/active_model_serializers-0.9.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/active_model_serializers-0.9.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/active_model_serializers-0.9.5/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -192,16 +212,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="addressable (vbundled(2.4.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/addressable-2.4.0) [path][gem]">
+      <library name="addressable (vbundled(2.5.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/addressable-2.5.0) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/data" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/tasks" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/data" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.4.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/addressable-2.5.0/tasks" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -216,14 +236,14 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(6.5.0.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/autoprefixer-rails-6.5.0.2) [path][gem]">
+      <library name="autoprefixer-rails (vbundled(6.5.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/autoprefixer-rails-6.5.3) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.0.2/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.3/vendor" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.0.2/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/autoprefixer-rails-6.5.3/vendor" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -346,12 +366,12 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="coffee-script-source (vbundled(1.10.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/coffee-script-source-1.10.0) [path][gem]">
+      <library name="coffee-script-source (vbundled(1.11.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/coffee-script-source-1.11.1) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/coffee-script-source-1.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/coffee-script-source-1.11.1/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/coffee-script-source-1.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/coffee-script-source-1.11.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -422,6 +442,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="email_spec (vbundled(1.6.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/email_spec-1.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/email_spec-1.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/email_spec-1.6.0/rails_generators" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/email_spec-1.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/email_spec-1.6.0/rails_generators" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="erubis (vbundled(2.7.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/erubis-2.7.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/erubis-2.7.0/bin" />
@@ -436,6 +468,22 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/erubis-2.7.0/contrib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/erubis-2.7.0/doc-api" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/erubis-2.7.0/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="excon (vbundled(0.54.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/excon-0.54.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/benchmarks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/excon-0.54.0/benchmarks" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -494,14 +542,302 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="font-awesome-rails (vbundled(4.6.3.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/font-awesome-rails-4.6.3.1) [path][gem]">
+      <library name="fission (vbundled(0.5.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fission-0.5.0) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fission-0.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fission-0.5.0/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.6.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fission-0.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fission-0.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog (vbundled(1.29.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-1.29.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/benchs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/benchs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-1.29.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-atmos (vbundled(0.1.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-atmos-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-atmos-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-aws (vbundled(0.12.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-aws-0.12.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-aws-0.12.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-brightbox (vbundled(0.11.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-brightbox-0.11.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-brightbox-0.11.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-core (vbundled(1.43.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-core-1.43.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-core-1.43.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-core-1.43.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-ecloud (vbundled(0.3.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-ecloud-0.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-ecloud-0.3.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-json (vbundled(1.0.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-json-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-json-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-json-1.0.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-json-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-json-1.0.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-local (vbundled(0.3.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-local-0.3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-local-0.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-local-0.3.1/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-local-0.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-local-0.3.1/tests" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-powerdns (vbundled(0.1.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-powerdns-0.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-powerdns-0.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-powerdns-0.1.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-powerdns-0.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-powerdns-0.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-profitbricks (vbundled(3.0.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-profitbricks-3.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-profitbricks-3.0.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-radosgw (vbundled(0.0.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-radosgw-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-radosgw-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-riakcs (vbundled(0.1.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-riakcs-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-riakcs-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-sakuracloud (vbundled(1.7.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-sakuracloud-1.7.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-sakuracloud-1.7.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-sakuracloud-1.7.5/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-sakuracloud-1.7.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-sakuracloud-1.7.5/tests" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-serverlove (vbundled(0.1.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-serverlove-0.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-serverlove-0.1.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-softlayer (vbundled(1.1.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-softlayer-1.1.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-softlayer-1.1.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-storm_on_demand (vbundled(0.1.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-storm_on_demand-0.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-storm_on_demand-0.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-storm_on_demand-0.1.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-storm_on_demand-0.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-storm_on_demand-0.1.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-terremark (vbundled(0.1.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-terremark-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-terremark-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-terremark-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-terremark-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-terremark-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-vmfusion (vbundled(0.1.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-vmfusion-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-vmfusion-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-vmfusion-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-vmfusion-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-vmfusion-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-voxel (vbundled(0.1.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-voxel-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-voxel-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-xml (vbundled(0.1.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/fog-xml-0.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-xml-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-xml-0.1.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-xml-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/fog-xml-0.1.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="font-awesome-rails (vbundled(4.7.0.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/font-awesome-rails-4.7.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.7.0.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.7.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.7.0.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/font-awesome-rails-4.7.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="formatador (vbundled(0.2.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/formatador-0.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/formatador-0.2.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/formatador-0.2.5/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/formatador-0.2.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/formatador-0.2.5/tests" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -528,14 +864,36 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="jbuilder (vbundled(2.6.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/jbuilder-2.6.0) [path][gem]">
+      <library name="inflecto (vbundled(0.0.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/inflecto-0.0.2) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.0/gemfiles" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/inflecto-0.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/inflecto-0.0.2/config" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.0/gemfiles" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/inflecto-0.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/inflecto-0.0.2/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ipaddress (vbundled(0.8.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/ipaddress-0.8.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/ipaddress-0.8.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/ipaddress-0.8.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbuilder (vbundled(2.6.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/jbuilder-2.6.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/jbuilder-2.6.1/gemfiles" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -570,6 +928,20 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/json-1.8.3/tests" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/json-1.8.3/tools" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/json-1.8.3/diagrams" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="launchy (vbundled(2.4.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/launchy-2.4.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/launchy-2.4.3/tasks" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -648,6 +1020,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="net-ssh (vbundled(3.2.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/net-ssh-3.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/net-ssh-3.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/net-ssh-3.2.0/support" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/net-ssh-3.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/net-ssh-3.2.0/support" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="nokogiri (vbundled(1.6.8.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/nokogiri-1.6.8.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/nokogiri-1.6.8.1/bin" />
@@ -680,6 +1064,48 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="pg (vbundled(0.19.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/pg-0.19.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/sample" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/pg-0.19.0/sample" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="public_suffix (vbundled(2.0.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/public_suffix-2.0.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/public_suffix-2.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/public_suffix-2.0.4/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/public_suffix-2.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/public_suffix-2.0.4/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="puma (vbundled(3.6.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/puma-3.6.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/tools" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/puma-3.6.2/tools" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="pundit (vbundled(0.3.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/pundit-0.3.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/pundit-0.3.0/lib" />
@@ -690,18 +1116,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rack (vbundled(1.6.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rack-1.6.4) [path][gem]">
+      <library name="rack (vbundled(1.6.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rack-1.6.5) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/contrib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/example" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/example" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/contrib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.4/example" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rack-1.6.5/example" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -756,6 +1182,40 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rails_12factor (vbundled(0.0.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rails_12factor-0.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_12factor-0.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_12factor-0.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_serve_static_assets (vbundled(0.0.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rails_serve_static_assets-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_serve_static_assets-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_serve_static_assets-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_serve_static_assets-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_serve_static_assets-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_stdout_logging (vbundled(0.0.5), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rails_stdout_logging-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_stdout_logging-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_stdout_logging-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_stdout_logging-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rails_stdout_logging-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="railties (vbundled(4.2.6), /Users/Brian/Documents/ticketee/vendor/bundle/gems/railties-4.2.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/railties-4.2.6/bin" />
@@ -782,14 +1242,14 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rdoc (vbundled(4.2.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rdoc-4.2.2) [path][gem]">
+      <library name="rdoc (vbundled(4.3.0), /Users/Brian/Documents/ticketee/vendor/bundle/gems/rdoc-4.3.0) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.3.0/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/rdoc-4.3.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -908,6 +1368,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="searcher (vbundled(0.0.7), /Users/Brian/Documents/ticketee/vendor/bundle/bundler/gems/searcher-c2975124e116) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/bundler/gems/searcher-c2975124e116/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/bundler/gems/searcher-c2975124e116/tmp" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/bundler/gems/searcher-c2975124e116/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/bundler/gems/searcher-c2975124e116/tmp" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="selenium-webdriver (vbundled(2.53.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/selenium-webdriver-2.53.4) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/selenium-webdriver-2.53.4/lib" />
@@ -978,14 +1450,14 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="thor (vbundled(0.19.1), /Users/Brian/Documents/ticketee/vendor/bundle/gems/thor-0.19.1) [path][gem]">
+      <library name="thor (vbundled(0.19.4), /Users/Brian/Documents/ticketee/vendor/bundle/gems/thor-0.19.4) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.4/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/thor-0.19.4/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1030,14 +1502,12 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="uglifier (vbundled(3.0.2), /Users/Brian/Documents/ticketee/vendor/bundle/gems/uglifier-3.0.2) [path][gem]">
+      <library name="uglifier (vbundled(3.0.3), /Users/Brian/Documents/ticketee/vendor/bundle/gems/uglifier-3.0.3) [path][gem]">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.2/gemfiles" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.3/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.2/gemfiles" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.3/lib" />
         </SOURCES>
       </library>
     </orderEntry>
